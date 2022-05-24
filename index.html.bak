@@ -26,8 +26,8 @@
                         <!-- Logo @s -->
                         <div class="header-logo logo animated" data-animate="fadeInDown" data-delay=".6">
                             <a href="./" class="logo-link">
-                                <img class="logo-dark" src="images/logo.png" srcset="images/logo.png 2x" alt="DENN.ME">
-                                <img class="logo-light" src="images/logo-full-white.png" srcset="images/logo-full-white.png 2x" alt="DENN.ME">
+                                <img class="logo-dark" src="images/logo.png" srcset="images/logo2x.png 2x" alt="logo">
+                                <img class="logo-light" src="images/logo-full-white.png" srcset="images/logo-full-white2x.png 2x" alt="logo">
                             </a>
                         </div>
                         <!-- Menu Toogle @s -->
