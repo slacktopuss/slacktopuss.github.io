@@ -1,8 +1,7 @@
 function FindProxyForURL(url, host) {
-var regexpr_rus  = /(^|\.)(music\.yandex\.ru|youdo\.com)$/;
-if(regexpr_rus.test(host))
-{
-return "HTTPS proxy-ssl.antizapret.prostovpn.org:3143; PROXY proxy-nossl.antizapret.prostovpn.org:29976; DIRECT";
-};
+
+var regexpr_torrent = /(^|\.)(meduza\.io|youdo\.com)$/;
+if (regexpr_torrent.test(host)) {return "SOCKS5 194.61.2.102:7497";};
 return "DIRECT";
+
 }
