@@ -1,6 +1,6 @@
 function FindProxyForURL(url, host) {
 
-var regexpr_ua = /(^|\.)(pravda\.com\.ua|meduza\.io)$/;
+var regexpr_ua = /(^|\.)(eurointegration\.com\.ua|postimees\.ee|unian\.ua|liga\.net|delfi\.lt|err\.ee|svoboda\.org|nv\.ua|tjournal\.ru|bbc\.com|yle\.fi|zona\.media|zerkalo\.io|rutracker\.org|pravda\.com\.ua|meduza\.io)$/;
 if (regexpr_ua.test(host))
 {
 
@@ -16,4 +16,3 @@ return "SOCKS zerosevenseven.keenetic.link:7777";
 
 return "DIRECT";
 }
-
