@@ -1,6 +1,6 @@
 function FindProxyForURL(url, host) {
 
-var regexpr_ua = /(^|\.)(epravda\.com\.ua|thetruestory\.news|eurointegration\.com\.ua|postimees\.ee|unian\.ua|liga\.net|delfi\.lt|err\.ee|svoboda\.org|nv\.ua|tjournal\.ru|bbc\.com|yle\.fi|zona\.media|zerkalo\.io|rutracker\.org|pravda\.com\.ua|meduza\.io)$/;
+var regexpr_ua = /(^|\.)(rus\.delfi\.lt|epravda\.com\.ua|thetruestory\.news|eurointegration\.com\.ua|postimees\.ee|unian\.ua|liga\.net|delfi\.lt|err\.ee|svoboda\.org|nv\.ua|tjournal\.ru|bbc\.com|yle\.fi|zona\.media|zerkalo\.io|rutracker\.org|pravda\.com\.ua|meduza\.io)$/;
 if (regexpr_ua.test(host))
 {
 
