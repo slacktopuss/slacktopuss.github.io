@@ -7,7 +7,7 @@ if (regexpr_ua.test(host))
 return "HTTPS proxy-ssl.antizapret.prostovpn.org:3143; PROXY proxy-nossl.antizapret.prostovpn.org:29976; DIRECT";
 };
 
-var regexpr_ru  = /(^|\.)(2ip\.ru|youdo\.com)$/;
+var regexpr_ru  = /(^|\.)(login.\aliexpress\.com|aliexpress\.ru|amazon\.com|2ip\.ru|youdo\.com)$/;
 if(regexpr_ru.test(host))
 {
 
